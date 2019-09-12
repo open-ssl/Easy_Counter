@@ -11,7 +11,6 @@ public class MainActivity extends AppCompatActivity{
 
     private TextView mHelloTextView;
     private TextView mCountTextView;
-    private Button mButton;
     private Button mButtonClick;
     private int mCount = 0;
     @Override
@@ -20,7 +19,6 @@ public class MainActivity extends AppCompatActivity{
         setContentView(R.layout.activity_main);
         mHelloTextView = findViewById(R.id.textView);
         mCountTextView = findViewById(R.id.tv_Count);
-        mButton = findViewById(R.id.button);
         mButtonClick = findViewById(R.id.button_count);
         mButtonClick.setOnClickListener(new View.OnClickListener() {
             @Override
